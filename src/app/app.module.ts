@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { Assignment6Component } from './assignment6/assignment6.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Assignment6Component
   ],
   imports: [
     BrowserModule
